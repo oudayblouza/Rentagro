@@ -1,0 +1,3 @@
+[submodule "ELCImagePickerController"]
+	path = ELCImagePickerController
+	url = https://github.com/B-Sides/ELCImagePickerController.git

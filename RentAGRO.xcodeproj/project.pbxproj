@@ -3,10 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8613A79B2001273000A32902 /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8613A79A2001273000A32902 /* CustomCardView.swift */; };
+		86F068222002DEBB0055E883 /* CategorieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F068212002DEBB0055E883 /* CategorieService.swift */; };
+		86F068242002E40E0055E883 /* TypeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F068232002E40E0055E883 /* TypeService.swift */; };
+		B81394C01FD5DDFE00D70C5E /* MyAdvertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81394BF1FD5DDFE00D70C5E /* MyAdvertsViewController.swift */; };
+		B820C2B71FCF6A900087CB5E /* userDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820C2B61FCF6A900087CB5E /* userDefaultsManager.swift */; };
+		B823666E1FD21E38007EBA81 /* AddAdverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823666A1FD21E37007EBA81 /* AddAdverController.swift */; };
+		B823666F1FD21E38007EBA81 /* AnnonceStep2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823666B1FD21E38007EBA81 /* AnnonceStep2Controller.swift */; };
+		B82366701FD21E38007EBA81 /* AnnonceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823666C1FD21E38007EBA81 /* AnnonceController.swift */; };
+		B82366711FD21E38007EBA81 /* AnnonceStep1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823666D1FD21E38007EBA81 /* AnnonceStep1Controller.swift */; };
+		B82366741FD22500007EBA81 /* DelegationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82366721FD22500007EBA81 /* DelegationService.swift */; };
+		B82366751FD22500007EBA81 /* VilleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82366731FD22500007EBA81 /* VilleService.swift */; };
+		B83B656B1FD2DED000FA2B56 /* UploadImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B656A1FD2DED000FA2B56 /* UploadImageController.swift */; };
+		B844619F1FBB86EF00924112 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B844619E1FBB86EF00924112 /* ProfileViewController.swift */; };
+		B8492BCC1FE0D3CE0082729B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8492BCB1FE0D3CD0082729B /* GoogleService-Info.plist */; };
+		B86671E11FF528D0009C2993 /* DemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86671DE1FF528D0009C2993 /* DemoCollectionViewCell.swift */; };
+		B86671E21FF528D0009C2993 /* DemoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86671DF1FF528D0009C2993 /* DemoCollectionViewCell.xib */; };
+		B86671E31FF528D0009C2993 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86671E01FF528D0009C2993 /* DemoTableViewController.swift */; };
+		B86671E61FF528E2009C2993 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86671E41FF528E2009C2993 /* DemoViewController.swift */; };
+		B86671EA1FF52C80009C2993 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86671E91FF52C80009C2993 /* Images.swift */; };
+		B86671EF1FF52D46009C2993 /* AnimationBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86671EE1FF52D46009C2993 /* AnimationBarButton.swift */; };
+		B86671F11FF52D7A009C2993 /* Rotatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86671F01FF52D7A009C2993 /* Rotatable.swift */; };
+		B869F99B1FBF332C000DB2E3 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = B869F99A1FBF332C000DB2E3 /* Users.swift */; };
+		B869F9A01FBF4264000DB2E3 /* Annonces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B869F99F1FBF4264000DB2E3 /* Annonces.swift */; };
+		B869F9A21FBF433E000DB2E3 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B869F9A11FBF433E000DB2E3 /* Type.swift */; };
+		B869F9A41FBF4350000DB2E3 /* Delegation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B869F9A31FBF4350000DB2E3 /* Delegation.swift */; };
+		B869F9A61FBF4439000DB2E3 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B869F9A51FBF4439000DB2E3 /* Categories.swift */; };
+		B869F9A81FBF447E000DB2E3 /* Ville.swift in Sources */ = {isa = PBXBuildFile; fileRef = B869F9A71FBF447E000DB2E3 /* Ville.swift */; };
+		B869F9AA1FBF4571000DB2E3 /* annoncesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B869F9A91FBF4571000DB2E3 /* annoncesService.swift */; };
+		B88F52C41FCDFC430026670E /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F52C31FCDFC430026670E /* ProfileController.swift */; };
+		B88F52C61FCE01A30026670E /* ProfileServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F52C51FCE01A30026670E /* ProfileServices.swift */; };
+		B8A1DBCB1FCE693000B5EABE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A1DBCA1FCE693000B5EABE /* CoreData.framework */; };
+		B8A946031FB37CA2000EA1F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A946021FB37CA2000EA1F4 /* HomeViewController.swift */; };
+		B8B160721FE869FC00483A31 /* MapAfterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B160711FE869FC00483A31 /* MapAfterDetailViewController.swift */; };
 		B8BAF3681FB1C13200DFAC0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BAF3671FB1C13200DFAC0A /* AppDelegate.swift */; };
 		B8BAF36A1FB1C13200DFAC0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BAF3691FB1C13200DFAC0A /* ViewController.swift */; };
 		B8BAF36D1FB1C13200DFAC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BAF36B1FB1C13200DFAC0A /* Main.storyboard */; };
@@ -15,6 +48,15 @@
 		B8BAF3751FB1C13200DFAC0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BAF3731FB1C13200DFAC0A /* LaunchScreen.storyboard */; };
 		B8BAF3801FB1C13200DFAC0A /* RentAGROTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BAF37F1FB1C13200DFAC0A /* RentAGROTests.swift */; };
 		B8BAF38B1FB1C13300DFAC0A /* RentAGROUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BAF38A1FB1C13300DFAC0A /* RentAGROUITests.swift */; };
+		B8BCCEA61FB276CB002297F8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BCCEA51FB276CB002297F8 /* RegisterViewController.swift */; };
+		B8E308A91FC5CB4800EF0B81 /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E308A81FC5CB4800EF0B81 /* URLS.swift */; };
+		B8E308AB1FC605DD00EF0B81 /* DetailAnnonces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E308AA1FC605DD00EF0B81 /* DetailAnnonces.swift */; };
+		B8F0B5231FE92A180088E29D /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F0B5221FE92A180088E29D /* CategoriesViewController.swift */; };
+		B8F89CD22000E06C006C9B91 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F89CD02000E06C006C9B91 /* RatingViewController.swift */; };
+		B8F89CD32000E06C006C9B91 /* RatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8F89CD12000E06C006C9B91 /* RatingViewController.xib */; };
+		D803BA686E3130CFB57EB7D2 /* Pods_RentAGROUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B103FF96A39AA24487BFE79A /* Pods_RentAGROUITests.framework */; };
+		DCF09659371D721E39CD515A /* Pods_RentAGROTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8954B1CE7E578CFD99D35748 /* Pods_RentAGROTests.framework */; };
+		E5045619D7CDF1812AAFB8DB /* Pods_RentAGRO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEBD46DD996D05A97BCF832 /* Pods_RentAGRO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +77,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DEBD46DD996D05A97BCF832 /* Pods_RentAGRO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RentAGRO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8613A79A2001273000A32902 /* CustomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
+		86F068212002DEBB0055E883 /* CategorieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieService.swift; sourceTree = "<group>"; };
+		86F068232002E40E0055E883 /* TypeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeService.swift; sourceTree = "<group>"; };
+		88146E12635B06EA994D9D5C /* Pods-RentAGROTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentAGROTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RentAGROTests/Pods-RentAGROTests.release.xcconfig"; sourceTree = "<group>"; };
+		8954B1CE7E578CFD99D35748 /* Pods_RentAGROTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RentAGROTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3853C99CB0776780C9CCF7C /* Pods-RentAGROUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentAGROUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RentAGROUITests/Pods-RentAGROUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE5AAC7BBDBD021874490917 /* Pods-RentAGRO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentAGRO.release.xcconfig"; path = "Pods/Target Support Files/Pods-RentAGRO/Pods-RentAGRO.release.xcconfig"; sourceTree = "<group>"; };
+		B103FF96A39AA24487BFE79A /* Pods_RentAGROUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RentAGROUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41EA6921216DC54D8DA78CA /* Pods-RentAGROTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentAGROTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RentAGROTests/Pods-RentAGROTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B81394BF1FD5DDFE00D70C5E /* MyAdvertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdvertsViewController.swift; sourceTree = "<group>"; };
+		B820C2B61FCF6A900087CB5E /* userDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDefaultsManager.swift; sourceTree = "<group>"; };
+		B823666A1FD21E37007EBA81 /* AddAdverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAdverController.swift; sourceTree = "<group>"; };
+		B823666B1FD21E38007EBA81 /* AnnonceStep2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnonceStep2Controller.swift; sourceTree = "<group>"; };
+		B823666C1FD21E38007EBA81 /* AnnonceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnonceController.swift; sourceTree = "<group>"; };
+		B823666D1FD21E38007EBA81 /* AnnonceStep1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnonceStep1Controller.swift; sourceTree = "<group>"; };
+		B82366721FD22500007EBA81 /* DelegationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegationService.swift; sourceTree = "<group>"; };
+		B82366731FD22500007EBA81 /* VilleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VilleService.swift; sourceTree = "<group>"; };
+		B83B656A1FD2DED000FA2B56 /* UploadImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageController.swift; sourceTree = "<group>"; };
+		B844619E1FBB86EF00924112 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B8492BCA1FE0C8A10082729B /* RentAGRO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RentAGRO.entitlements; sourceTree = "<group>"; };
+		B8492BCB1FE0D3CD0082729B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B86671DE1FF528D0009C2993 /* DemoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewCell.swift; sourceTree = "<group>"; };
+		B86671DF1FF528D0009C2993 /* DemoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCollectionViewCell.xib; sourceTree = "<group>"; };
+		B86671E01FF528D0009C2993 /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		B86671E41FF528E2009C2993 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		B86671E91FF52C80009C2993 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Images.swift; path = "RentAGRO/New Group/DemoExpandingCollection/Constantss/Images.swift"; sourceTree = SOURCE_ROOT; };
+		B86671EE1FF52D46009C2993 /* AnimationBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationBarButton.swift; path = "RentAGRO/New Group/DemoExpandingCollection/Viewss/AnimatingBarButton/AnimationBarButton.swift"; sourceTree = SOURCE_ROOT; };
+		B86671F01FF52D7A009C2993 /* Rotatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rotatable.swift; path = "RentAGRO/New Group/DemoExpandingCollection/Viewss/AnimatingBarButton/Animations/Rotatable.swift"; sourceTree = SOURCE_ROOT; };
+		B869F99A1FBF332C000DB2E3 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		B869F99F1FBF4264000DB2E3 /* Annonces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annonces.swift; sourceTree = "<group>"; };
+		B869F9A11FBF433E000DB2E3 /* Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		B869F9A31FBF4350000DB2E3 /* Delegation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegation.swift; sourceTree = "<group>"; };
+		B869F9A51FBF4439000DB2E3 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		B869F9A71FBF447E000DB2E3 /* Ville.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ville.swift; sourceTree = "<group>"; };
+		B869F9A91FBF4571000DB2E3 /* annoncesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = annoncesService.swift; sourceTree = "<group>"; };
+		B88F52C31FCDFC430026670E /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		B88F52C51FCE01A30026670E /* ProfileServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileServices.swift; sourceTree = "<group>"; };
+		B8A1DBCA1FCE693000B5EABE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B8A946021FB37CA2000EA1F4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B8B160711FE869FC00483A31 /* MapAfterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAfterDetailViewController.swift; sourceTree = "<group>"; };
 		B8BAF3641FB1C13200DFAC0A /* RentAGRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentAGRO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BAF3671FB1C13200DFAC0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8BAF3691FB1C13200DFAC0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +132,14 @@
 		B8BAF3861FB1C13200DFAC0A /* RentAGROUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentAGROUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BAF38A1FB1C13300DFAC0A /* RentAGROUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentAGROUITests.swift; sourceTree = "<group>"; };
 		B8BAF38C1FB1C13300DFAC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8BCCEA51FB276CB002297F8 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B8E308A81FC5CB4800EF0B81 /* URLS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLS.swift; sourceTree = "<group>"; };
+		B8E308AA1FC605DD00EF0B81 /* DetailAnnonces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailAnnonces.swift; sourceTree = "<group>"; };
+		B8F0B5221FE92A180088E29D /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		B8F89CD02000E06C006C9B91 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		B8F89CD12000E06C006C9B91 /* RatingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingViewController.xib; sourceTree = "<group>"; };
+		D4198B24348EF3F328322A33 /* Pods-RentAGRO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentAGRO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RentAGRO/Pods-RentAGRO.debug.xcconfig"; sourceTree = "<group>"; };
+		DBC9829CEE668B96F1570BE1 /* Pods-RentAGROUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentAGROUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RentAGROUITests/Pods-RentAGROUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A1DBCB1FCE693000B5EABE /* CoreData.framework in Frameworks */,
+				E5045619D7CDF1812AAFB8DB /* Pods_RentAGRO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF09659371D721E39CD515A /* Pods_RentAGROTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +164,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D803BA686E3130CFB57EB7D2 /* Pods_RentAGROUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B86671E81FF52C3D009C2993 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B86671E91FF52C80009C2993 /* Images.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B86671EB1FF52CF4009C2993 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B86671EC1FF52CFC009C2993 /* AnimatingBarButton */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B86671EC1FF52CFC009C2993 /* AnimatingBarButton */ = {
+			isa = PBXGroup;
+			children = (
+				B86671EE1FF52D46009C2993 /* AnimationBarButton.swift */,
+				B86671ED1FF52D0E009C2993 /* Animations */,
+			);
+			path = AnimatingBarButton;
+			sourceTree = "<group>";
+		};
+		B86671ED1FF52D0E009C2993 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B86671F01FF52D7A009C2993 /* Rotatable.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		B869F9991FBF32F1000DB2E3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B869F99A1FBF332C000DB2E3 /* Users.swift */,
+				B869F99F1FBF4264000DB2E3 /* Annonces.swift */,
+				B869F9A11FBF433E000DB2E3 /* Type.swift */,
+				B869F9A31FBF4350000DB2E3 /* Delegation.swift */,
+				B869F9A51FBF4439000DB2E3 /* Categories.swift */,
+				B869F9A71FBF447E000DB2E3 /* Ville.swift */,
+			);
+			name = Entities;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B869F99C1FBF4167000DB2E3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B869F9A91FBF4571000DB2E3 /* annoncesService.swift */,
+				B88F52C51FCE01A30026670E /* ProfileServices.swift */,
+				B820C2B61FCF6A900087CB5E /* userDefaultsManager.swift */,
+				B82366721FD22500007EBA81 /* DelegationService.swift */,
+				B82366731FD22500007EBA81 /* VilleService.swift */,
+				86F068212002DEBB0055E883 /* CategorieService.swift */,
+				86F068232002E40E0055E883 /* TypeService.swift */,
+			);
+			name = Services;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		B8BAF35B1FB1C13200DFAC0A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +240,8 @@
 				B8BAF37E1FB1C13200DFAC0A /* RentAGROTests */,
 				B8BAF3891FB1C13300DFAC0A /* RentAGROUITests */,
 				B8BAF3651FB1C13200DFAC0A /* Products */,
+				E284FD6B3DD95D12F256A58E /* Pods */,
+				EDED63754D0A370D1724D6C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +258,39 @@
 		B8BAF3661FB1C13200DFAC0A /* RentAGRO */ = {
 			isa = PBXGroup;
 			children = (
+				B86671EB1FF52CF4009C2993 /* Views */,
+				B86671E81FF52C3D009C2993 /* Constants */,
+				B86671E41FF528E2009C2993 /* DemoViewController.swift */,
+				B86671DE1FF528D0009C2993 /* DemoCollectionViewCell.swift */,
+				B86671DF1FF528D0009C2993 /* DemoCollectionViewCell.xib */,
+				B86671E01FF528D0009C2993 /* DemoTableViewController.swift */,
+				B8492BCB1FE0D3CD0082729B /* GoogleService-Info.plist */,
+				B8492BCA1FE0C8A10082729B /* RentAGRO.entitlements */,
+				B8E308A71FC5CB3100EF0B81 /* Utils */,
+				B869F99C1FBF4167000DB2E3 /* Services */,
+				B869F9991FBF32F1000DB2E3 /* Entities */,
 				B8BAF3671FB1C13200DFAC0A /* AppDelegate.swift */,
 				B8BAF3691FB1C13200DFAC0A /* ViewController.swift */,
+				B88F52C31FCDFC430026670E /* ProfileController.swift */,
+				B8BCCEA51FB276CB002297F8 /* RegisterViewController.swift */,
+				B8A946021FB37CA2000EA1F4 /* HomeViewController.swift */,
+				B844619E1FBB86EF00924112 /* ProfileViewController.swift */,
+				B8E308AA1FC605DD00EF0B81 /* DetailAnnonces.swift */,
 				B8BAF36B1FB1C13200DFAC0A /* Main.storyboard */,
+				B81394BF1FD5DDFE00D70C5E /* MyAdvertsViewController.swift */,
+				B823666A1FD21E37007EBA81 /* AddAdverController.swift */,
+				B823666C1FD21E38007EBA81 /* AnnonceController.swift */,
+				B823666D1FD21E38007EBA81 /* AnnonceStep1Controller.swift */,
+				B823666B1FD21E38007EBA81 /* AnnonceStep2Controller.swift */,
+				B83B656A1FD2DED000FA2B56 /* UploadImageController.swift */,
 				B8BAF3711FB1C13200DFAC0A /* Assets.xcassets */,
 				B8BAF3731FB1C13200DFAC0A /* LaunchScreen.storyboard */,
 				B8BAF3761FB1C13200DFAC0A /* Info.plist */,
 				B8BAF36E1FB1C13200DFAC0A /* RentAGRO.xcdatamodeld */,
+				B8B160711FE869FC00483A31 /* MapAfterDetailViewController.swift */,
+				B8F0B5221FE92A180088E29D /* CategoriesViewController.swift */,
+				B8F89CD02000E06C006C9B91 /* RatingViewController.swift */,
+				B8F89CD12000E06C006C9B91 /* RatingViewController.xib */,
 			);
 			path = RentAGRO;
 			sourceTree = "<group>";
@@ -128,6 +313,39 @@
 			path = RentAGROUITests;
 			sourceTree = "<group>";
 		};
+		B8E308A71FC5CB3100EF0B81 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B8E308A81FC5CB4800EF0B81 /* URLS.swift */,
+				8613A79A2001273000A32902 /* CustomCardView.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E284FD6B3DD95D12F256A58E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4198B24348EF3F328322A33 /* Pods-RentAGRO.debug.xcconfig */,
+				AE5AAC7BBDBD021874490917 /* Pods-RentAGRO.release.xcconfig */,
+				B41EA6921216DC54D8DA78CA /* Pods-RentAGROTests.debug.xcconfig */,
+				88146E12635B06EA994D9D5C /* Pods-RentAGROTests.release.xcconfig */,
+				DBC9829CEE668B96F1570BE1 /* Pods-RentAGROUITests.debug.xcconfig */,
+				A3853C99CB0776780C9CCF7C /* Pods-RentAGROUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDED63754D0A370D1724D6C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A1DBCA1FCE693000B5EABE /* CoreData.framework */,
+				5DEBD46DD996D05A97BCF832 /* Pods_RentAGRO.framework */,
+				8954B1CE7E578CFD99D35748 /* Pods_RentAGROTests.framework */,
+				B103FF96A39AA24487BFE79A /* Pods_RentAGROUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8BAF38F1FB1C13300DFAC0A /* Build configuration list for PBXNativeTarget "RentAGRO" */;
 			buildPhases = (
+				7F01B59A5F022F0C0CD95751 /* [CP] Check Pods Manifest.lock */,
 				B8BAF3601FB1C13200DFAC0A /* Sources */,
 				B8BAF3611FB1C13200DFAC0A /* Frameworks */,
 				B8BAF3621FB1C13200DFAC0A /* Resources */,
+				DD3B80BF63351A6B58878D23 /* [CP] Embed Pods Frameworks */,
+				F735F8CC7DD1FFB18A6A8068 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +373,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8BAF3921FB1C13300DFAC0A /* Build configuration list for PBXNativeTarget "RentAGROTests" */;
 			buildPhases = (
+				00F59DFE90546AA624287036 /* [CP] Check Pods Manifest.lock */,
 				B8BAF3771FB1C13200DFAC0A /* Sources */,
 				B8BAF3781FB1C13200DFAC0A /* Frameworks */,
 				B8BAF3791FB1C13200DFAC0A /* Resources */,
@@ -170,6 +392,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8BAF3951FB1C13300DFAC0A /* Build configuration list for PBXNativeTarget "RentAGROUITests" */;
 			buildPhases = (
+				48E6034B4A2B9D1DA77E4FDB /* [CP] Check Pods Manifest.lock */,
 				B8BAF3821FB1C13200DFAC0A /* Sources */,
 				B8BAF3831FB1C13200DFAC0A /* Frameworks */,
 				B8BAF3841FB1C13200DFAC0A /* Resources */,
@@ -190,31 +413,41 @@
 		B8BAF35C1FB1C13200DFAC0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Ouaz Seddik";
 				TargetAttributes = {
 					B8BAF3631FB1C13200DFAC0A = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 2LTFA9PY6Q;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					B8BAF37A1FB1C13200DFAC0A = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2LTFA9PY6Q;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B8BAF3631FB1C13200DFAC0A;
 					};
 					B8BAF3851FB1C13200DFAC0A = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2LTFA9PY6Q;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B8BAF3631FB1C13200DFAC0A;
 					};
 				};
 			};
 			buildConfigurationList = B8BAF35F1FB1C13200DFAC0A /* Build configuration list for PBXProject "RentAGRO" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -238,8 +471,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86671E21FF528D0009C2993 /* DemoCollectionViewCell.xib in Resources */,
+				B8F89CD32000E06C006C9B91 /* RatingViewController.xib in Resources */,
 				B8BAF3751FB1C13200DFAC0A /* LaunchScreen.storyboard in Resources */,
 				B8BAF3721FB1C13200DFAC0A /* Assets.xcassets in Resources */,
+				B8492BCC1FE0D3CE0082729B /* GoogleService-Info.plist in Resources */,
 				B8BAF36D1FB1C13200DFAC0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +496,186 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00F59DFE90546AA624287036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RentAGROTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E6034B4A2B9D1DA77E4FDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RentAGROUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F01B59A5F022F0C0CD95751 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RentAGRO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3B80BF63351A6B58878D23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RentAGRO/Pods-RentAGRO-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/CDAlertView/CDAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/DTImageScrollView/DTImageScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
+				"${BUILT_PRODUCTS_DIR}/Fusuma/Fusuma.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/HidingNavigationBar/HidingNavigationBar.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/RZTransitions/RZTransitions.framework",
+				"${BUILT_PRODUCTS_DIR}/RainyRefreshControl/RainyRefreshControl.framework",
+				"${BUILT_PRODUCTS_DIR}/RangeSeekSlider/RangeSeekSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableSegmentedControl/ScrollableSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/expanding-collection/expanding_collection.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTImageScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fusuma.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HidingNavigationBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RZTransitions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RainyRefreshControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RangeSeekSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/expanding_collection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RentAGRO/Pods-RentAGRO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F735F8CC7DD1FFB18A6A8068 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RentAGRO/Pods-RentAGRO-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RentAGRO/Pods-RentAGRO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8BAF3601FB1C13200DFAC0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B844619F1FBB86EF00924112 /* ProfileViewController.swift in Sources */,
+				86F068222002DEBB0055E883 /* CategorieService.swift in Sources */,
+				B8E308A91FC5CB4800EF0B81 /* URLS.swift in Sources */,
+				B86671E11FF528D0009C2993 /* DemoCollectionViewCell.swift in Sources */,
+				B8A946031FB37CA2000EA1F4 /* HomeViewController.swift in Sources */,
+				B823666F1FD21E38007EBA81 /* AnnonceStep2Controller.swift in Sources */,
 				B8BAF3701FB1C13200DFAC0A /* RentAGRO.xcdatamodeld in Sources */,
+				B86671EA1FF52C80009C2993 /* Images.swift in Sources */,
+				B820C2B71FCF6A900087CB5E /* userDefaultsManager.swift in Sources */,
+				B81394C01FD5DDFE00D70C5E /* MyAdvertsViewController.swift in Sources */,
 				B8BAF36A1FB1C13200DFAC0A /* ViewController.swift in Sources */,
+				B83B656B1FD2DED000FA2B56 /* UploadImageController.swift in Sources */,
+				B82366701FD21E38007EBA81 /* AnnonceController.swift in Sources */,
 				B8BAF3681FB1C13200DFAC0A /* AppDelegate.swift in Sources */,
+				B8F89CD22000E06C006C9B91 /* RatingViewController.swift in Sources */,
+				B86671E31FF528D0009C2993 /* DemoTableViewController.swift in Sources */,
+				B86671EF1FF52D46009C2993 /* AnimationBarButton.swift in Sources */,
+				B8F0B5231FE92A180088E29D /* CategoriesViewController.swift in Sources */,
+				B869F9A21FBF433E000DB2E3 /* Type.swift in Sources */,
+				B86671E61FF528E2009C2993 /* DemoViewController.swift in Sources */,
+				B82366751FD22500007EBA81 /* VilleService.swift in Sources */,
+				B88F52C41FCDFC430026670E /* ProfileController.swift in Sources */,
+				B8E308AB1FC605DD00EF0B81 /* DetailAnnonces.swift in Sources */,
+				B823666E1FD21E38007EBA81 /* AddAdverController.swift in Sources */,
+				B82366741FD22500007EBA81 /* DelegationService.swift in Sources */,
+				86F068242002E40E0055E883 /* TypeService.swift in Sources */,
+				B869F9A81FBF447E000DB2E3 /* Ville.swift in Sources */,
+				B8B160721FE869FC00483A31 /* MapAfterDetailViewController.swift in Sources */,
+				B86671F11FF52D7A009C2993 /* Rotatable.swift in Sources */,
+				B82366711FD21E38007EBA81 /* AnnonceStep1Controller.swift in Sources */,
+				B869F9AA1FBF4571000DB2E3 /* annoncesService.swift in Sources */,
+				8613A79B2001273000A32902 /* CustomCardView.swift in Sources */,
+				B869F9A61FBF4439000DB2E3 /* Categories.swift in Sources */,
+				B869F9A01FBF4264000DB2E3 /* Annonces.swift in Sources */,
+				B8BCCEA61FB276CB002297F8 /* RegisterViewController.swift in Sources */,
+				B869F9A41FBF4350000DB2E3 /* Delegation.swift in Sources */,
+				B869F99B1FBF332C000DB2E3 /* Users.swift in Sources */,
+				B88F52C61FCE01A30026670E /* ProfileServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,32 +827,43 @@
 		};
 		B8BAF3901FB1C13300DFAC0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4198B24348EF3F328322A33 /* Pods-RentAGRO.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2LTFA9PY6Q;
+				CODE_SIGN_ENTITLEMENTS = RentAGRO/RentAGRO.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
 				INFOPLIST_FILE = RentAGRO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.rentagro.RentAGRO;
+				OTHER_SWIFT_FLAGS = "\"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.rentagro1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		B8BAF3911FB1C13300DFAC0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5AAC7BBDBD021874490917 /* Pods-RentAGRO.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2LTFA9PY6Q;
+				CODE_SIGN_ENTITLEMENTS = RentAGRO/RentAGRO.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
 				INFOPLIST_FILE = RentAGRO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.rentagro.RentAGRO;
+				OTHER_SWIFT_FLAGS = "\"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.rentagro1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		B8BAF3931FB1C13300DFAC0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41EA6921216DC54D8DA78CA /* Pods-RentAGROTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -453,13 +872,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.rentagro.RentAGROTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentAGRO.app/RentAGRO";
 			};
 			name = Debug;
 		};
 		B8BAF3941FB1C13300DFAC0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88146E12635B06EA994D9D5C /* Pods-RentAGROTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,13 +888,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.rentagro.RentAGROTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentAGRO.app/RentAGRO";
 			};
 			name = Release;
 		};
 		B8BAF3961FB1C13300DFAC0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC9829CEE668B96F1570BE1 /* Pods-RentAGROUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2LTFA9PY6Q;
@@ -482,13 +903,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.rentagro.RentAGROUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = RentAGRO;
 			};
 			name = Debug;
 		};
 		B8BAF3971FB1C13300DFAC0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3853C99CB0776780C9CCF7C /* Pods-RentAGROUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2LTFA9PY6Q;
@@ -496,7 +918,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.rentagro.RentAGROUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = RentAGRO;
 			};
 			name = Release;
@@ -520,6 +942,7 @@
 				B8BAF3911FB1C13300DFAC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8BAF3921FB1C13300DFAC0A /* Build configuration list for PBXNativeTarget "RentAGROTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +951,7 @@
 				B8BAF3941FB1C13300DFAC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8BAF3951FB1C13300DFAC0A /* Build configuration list for PBXNativeTarget "RentAGROUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +960,7 @@
 				B8BAF3971FB1C13300DFAC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

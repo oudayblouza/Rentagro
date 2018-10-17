@@ -2,12 +2,20 @@
 //  AppDelegate.swift
 //  RentAGRO
 //
-//  Created by Ouaz Seddik on 07/11/2017.
-//  Copyright © 2017 Ouaz Seddik. All rights reserved.
+//  Created by Blouza Ouday on 07/11/2017.
+//  Copyright © 2017 Blouza Ouday. All rights reserved.
 //
 
 import UIKit
 import CoreData
+import Firebase
+import FirebaseMessaging
+import FirebaseInstanceID
+import UserNotifications
+import GoogleMaps
+import GooglePlaces
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +24,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        UITabBar.appearance().tintColor = UIColor(red: 0.36, green: 0.81, blue: 0.69 , alpha: 1.0)
+        FirebaseApp.configure()
         // Override point for customization after application launch.
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (success, error) in
+            
+            if error == nil{
+                print ("Successfullllllyyyyyyy notification auth")
+            }
+        }
+        
+        application.registerForRemoteNotifications()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(self.refreshtoken(notification:)), name: NSNotification.Name.InstanceIDTokenRefresh, object: nil)
+        GMSServices.provideAPIKey("AIzaSyABMJ7TC_TgF4SrO9eXnI2XPehDIpMH5Kk")
+        GMSPlacesClient.provideAPIKey("AIzaSyABMJ7TC_TgF4SrO9eXnI2XPehDIpMH5Kk")
         return true
     }
 
@@ -28,6 +51,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
+        
+        Messaging.messaging().shouldEstablishDirectChannel = false
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -36,6 +62,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
+        FBHandler()
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
@@ -46,7 +74,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data stack
 
-    lazy var persistentContainer: NSPersistentContainer = {
+    @objc lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
          creates and returns a container, having loaded the store for the
@@ -75,7 +103,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data Saving support
 
-    func saveContext () {
+    @objc func saveContext () {
         let context = persistentContainer.viewContext
         if context.hasChanges {
             do {
@@ -87,6 +115,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    
+    @objc func refreshtoken(notification: NSNotification) {
+        let refreshToken = InstanceID.instanceID().token()!
+        print("$$$$$$\(refreshToken)$$$$$$")
+        FBHandler()
+    }
+    
+    @objc func FBHandler()
+    {
+        Messaging.messaging().shouldEstablishDirectChannel = true
     }
 
 }

@@ -1,0 +1,6 @@
+framework module Pods_RentAGRO {
+  umbrella header "Pods-RentAGRO-umbrella.h"
+
+  export *
+  module * { export * }
+}
